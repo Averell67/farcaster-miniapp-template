@@ -20,13 +20,13 @@ export function WalletActions() {
 
   async function sendTransactionHandler() {
   sendTransaction({
-      to: '0xCdcC45169fCbF6cEcC1931f3415978E3a6553ACd',
+      to: '0x802B180299483D428e754fd7A9D86fefFC050722',
       value: parseEther('0.000001'),
     })
   }
 
   // Adresse du contrat déployé
-  const contractAddress = '0xCdcC45169fCbF6cEcC1931f3415978E3a6553ACd'
+  const contractAddress = '0x802B180299483D428e754fd7A9D86fefFC050722'
 
   async function handleSend(message: string) {
     try {
